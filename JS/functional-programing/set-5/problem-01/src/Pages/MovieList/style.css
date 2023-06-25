@@ -1,0 +1,15 @@
+h1{
+    color: rgb(198, 38, 38);
+    padding: 20px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    font-size: 40px;
+}
+ li{
+    padding: 5px;
+ }
