@@ -10,6 +10,11 @@ h1{
 ul{
     font-size: 40px;
 }
- li{
-    padding: 5px;
- }
+
+li{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
