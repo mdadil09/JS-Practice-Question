@@ -140,5 +140,3 @@ export const products = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ];
-
-console.log(products);

@@ -8,6 +8,13 @@ import { products } from "../data";
 import "./index.css";
 
 const Cart = () => {
+  const getCartTotal = () => {
+    let total = 0;
+    products.map(({ price }) => (total = total + price));
+    return total;
+  };
+  const getTotal = getCartTotal();
+  console.log(getCartTotal());
   return (
     <div className="container">
       <h2>Shopping Cart</h2>
@@ -15,26 +22,31 @@ const Cart = () => {
         <li className="table-header">
           <div className="col col1">ID</div>
           <div className="col col2">Product Name</div>
-          <div className="col col3">Price</div>
-          <div className="col col4">Category</div>
+          <div className="col col3">Category</div>
+          <div className="col col4">Price</div>
         </li>
         {products.map((product) => (
-          <li className="table-row">
+          <li className="table-row" key={product.id}>
             <div className="col col1" data-label="ID">
               {product.id}
             </div>
             <div className="col col2" data-label="Product Name">
               {product.name}
             </div>
-            <div className="col col3" data-label="Price">
-              {product.price}
-            </div>
-            <div className="col col4" data-label="Category">
+            <div className="col col3" data-label="Category">
               {product.category}
+            </div>
+            <div className="col col4" data-label="Price">
+              {product.price}
             </div>
           </li>
         ))}
       </ul>
+      <div className="total">
+        <div className="space"></div>
+        <div className="tot">Total: </div>
+        <div className="totPrice">{Math.floor(getTotal)}</div>
+      </div>
     </div>
   );
 };
