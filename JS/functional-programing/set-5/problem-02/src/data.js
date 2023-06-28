@@ -4,8 +4,6 @@ export const products = [
     name: "Product 1",
     price: 9.99,
     category: "Electronics",
-    image:
-      "https://media.istockphoto.com/id/519548054/photo/dslr-camera-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=J5bVQohvlR4e3-Ok28CbnM-fwb8TeQAhZ6XQHnLOeOs=",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
@@ -13,8 +11,6 @@ export const products = [
     name: "Product 2",
     price: 19.99,
     category: "Home",
-    image:
-      "https://img.freepik.com/free-psd/armchair-pillow_176382-861.jpg?size=626&ext=jpg&ga=GA1.1.1467188854.1687890248&semt=ais",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
@@ -22,8 +18,6 @@ export const products = [
     name: "Product 3",
     price: 14.99,
     category: "Books",
-    image:
-      "https://rukminim1.flixcart.com/image/416/416/k4lmv0w0/book/6/3/0/let-us-c-original-imafnenjsgn6hzbh.jpeg?q=70",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
@@ -31,8 +25,6 @@ export const products = [
     name: "Product 4",
     price: 49.99,
     category: "Electronics",
-    image:
-      "https://rukminim1.flixcart.com/image/416/416/ktop5e80/tablet/u/v/t/mk2p3hn-a-apple-original-imag6yy8aezdwncr.jpeg?q=70",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
@@ -40,8 +32,111 @@ export const products = [
     name: "Product 5",
     price: 9.99,
     category: "Beauty",
-    image:
-      "https://rukminim1.flixcart.com/image/416/416/xif0q/body-wash/n/5/k/-original-imagqr4sfguuhkqs.jpeg?q=70",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 6,
+    name: "Product 6",
+    price: 29.99,
+    category: "Electronics",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 7,
+    name: "Product 7",
+    price: 12.99,
+    category: "Home",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 8,
+    name: "Product 8",
+    price: 24.99,
+    category: "Books",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 9,
+    name: "Product 9",
+    price: 7.99,
+    category: "Beauty",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 10,
+    name: "Product 10",
+    price: 39.99,
+    category: "Electronics",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 11,
+    name: "Product 11",
+    price: 17.99,
+    category: "Home",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 12,
+    name: "Product 12",
+    price: 11.99,
+    category: "Books",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 13,
+    name: "Product 13",
+    price: 8.99,
+    category: "Beauty",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 14,
+    name: "Product 14",
+    price: 34.99,
+    category: "Electronics",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 15,
+    name: "Product 15",
+    price: 22.99,
+    category: "Home",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 16,
+    name: "Product 16",
+    price: 15.99,
+    category: "Books",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 17,
+    name: "Product 17",
+    price: 6.99,
+    category: "Beauty",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 18,
+    name: "Product 18",
+    price: 27.99,
+    category: "Electronics",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 19,
+    name: "Product 19",
+    price: 16.99,
+    category: "Home",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 20,
+    name: "Product 20",
+    price: 10.99,
+    category: "Books",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ];

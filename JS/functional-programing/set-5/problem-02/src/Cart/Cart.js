@@ -9,22 +9,32 @@ import "./index.css";
 
 const Cart = () => {
   return (
-    <div className="cart-container">
-      <div className="header">
-        <h3 className="heading">Shopping Cart</h3>
-        <h5 className="action">Remove all</h5>
-      </div>
-      <hr />
-      {products.map((product) => (
-        <div className="cart-item">
-          <img
-            src={product.image}
-            style={{ height: "120px", width: "120px" }}
-            alt=""
-          />
-          <div className="title">{product.name}</div>
-        </div>
-      ))}
+    <div className="container">
+      <h2>Shopping Cart</h2>
+      <ul className="responsive-table">
+        <li className="table-header">
+          <div className="col col1">ID</div>
+          <div className="col col2">Product Name</div>
+          <div className="col col3">Price</div>
+          <div className="col col4">Category</div>
+        </li>
+        {products.map((product) => (
+          <li className="table-row">
+            <div className="col col1" data-label="ID">
+              {product.id}
+            </div>
+            <div className="col col2" data-label="Product Name">
+              {product.name}
+            </div>
+            <div className="col col3" data-label="Price">
+              {product.price}
+            </div>
+            <div className="col col4" data-label="Category">
+              {product.category}
+            </div>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
