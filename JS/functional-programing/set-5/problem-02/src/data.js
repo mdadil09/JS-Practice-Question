@@ -14,7 +14,7 @@ export const products = [
     price: 19.99,
     category: "Home",
     image:
-      "https://media.istockphoto.com/id/1031444360/photo/poster-above-white-cabinet-with-plant-next-to-grey-sofa-in-simple-living-room-interior-real.jpg?s=612x612&w=0&k=20&c=pKGXC920DL70qkNZp0xYpOF7AKQ9YFUSne_3wbQmJ5A=",
+      "https://img.freepik.com/free-psd/armchair-pillow_176382-861.jpg?size=626&ext=jpg&ga=GA1.1.1467188854.1687890248&semt=ais",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {

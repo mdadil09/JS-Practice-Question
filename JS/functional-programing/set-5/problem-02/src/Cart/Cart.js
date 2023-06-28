@@ -14,13 +14,17 @@ const Cart = () => {
         <h3 className="heading">Shopping Cart</h3>
         <h5 className="action">Remove all</h5>
       </div>
-      <div className="cart-item">
-        <div className="image-box">
-          {products.map((product) => (
-            <img src={product.image} style={{ height: "120px" }} alt="" />
-          ))}
+      <hr />
+      {products.map((product) => (
+        <div className="cart-item">
+          <img
+            src={product.image}
+            style={{ height: "120px", width: "120px" }}
+            alt=""
+          />
+          <div className="title">{product.name}</div>
         </div>
-      </div>
+      ))}
     </div>
   );
 };

@@ -26,6 +26,11 @@
     color: #E44C4C;
     border-bottom: 1px solid #E44C4C;
 }
+hr{
+    margin-right: 40px;
+    margin-left: 40px;
+    color: 1px solid lightgray;
+}
 
 .Cart-Items{
  margin: auto;
@@ -35,26 +40,15 @@
  justify-content: space-between;
  align-items: center;
 }
-
 .image-box{
-    width: 15%;
-    text-align: center;
-    padding: 5px;
-}
-
-/* .about{
-    height:100%;
+ width: 15%;
+ text-align: center;
 }
 
 .title{
- padding-top: 5px;
- padding-right: auto;
  line-height: 10px;
  font-size: 32px;
  font-family: ‘Open Sans’;
  font-weight: 800;
  color: #202020;
 }
-
-
- */
