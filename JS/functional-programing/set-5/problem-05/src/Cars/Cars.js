@@ -8,6 +8,12 @@ import { cars } from "../data";
 import "./index.css";
 
 const Cars = () => {
+  const getTotalPrice = () => {
+    let total = 0;
+    cars.map(({ price }) => (total += price));
+    return total;
+  };
+  const getTotal = getTotalPrice();
   return (
     <div className="container">
       <h2>Car's List</h2>
@@ -35,6 +41,11 @@ const Cars = () => {
           </li>
         ))}
       </ul>
+      <div className="total">
+        <div className="space"></div>
+        <div className="tot">Total: </div>
+        <div className="totPrice">${Math.floor(getTotal)}</div>
+      </div>
     </div>
   );
 };
