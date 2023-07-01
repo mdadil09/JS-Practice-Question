@@ -1,0 +1,23 @@
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    color: #FF4B2B;
+}
+ol{
+    margin-right: 100px;
+    list-style-type: none;  
+}
+ul{
+    list-style-type: none;  
+}
+h3{
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    color: #FF4B2B;
+}
+
