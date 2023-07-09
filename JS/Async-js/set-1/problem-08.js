@@ -30,11 +30,13 @@ const displayOutput = document.querySelector("#output");
 fakeFetch("https://example.com/api/itemlist")
   .then((res) => {
     const itemlist = res.data;
+    let outputText = "";
     itemlist.forEach((item, index) => {
-      displayOutput.textContent = `${index + 1}. ${item.itemName} -- INR ${
-        item.price
-      } -- ${item.quantity}`;
+      outputText += `${index + 1}. ${item.itemName} -- INR ${item.price} -- ${
+        item.quantity
+      } <br>`;
     });
+    displayOutput.innerHTML = outputText;
   })
   .catch((err) => {
     if (err.status === 404) {
